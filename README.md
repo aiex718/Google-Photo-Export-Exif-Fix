@@ -8,11 +8,12 @@ A tool to edit photo exif exported from Google photo or takeout
 | Argument Name | Short Name | HelpText                                                                                    |
 |---------------|------------|---------------------------------------------------------------------------------------------|
 | path          | p          | Path to root folder.                                                                        |
-| force         | f          | Force overwrite exif date.                                                                  |
+| force         | f          | Force overwrite exif date, otherwise only write exif date when empty.                       |
 | filedate      | d          | Modify file last write and creation time.                                                   |
-| extensions    | e          | Image file extensions you want to edit such as jpg, use',' to seperate multiple extensions. |
+| extensions    | e          | Image file extensions* you want to edit such as jpg, use',' to seperate multiple extensions. |
 | remove        | r          | Set which file extensions to remove when found duplicate file name in same folder.          |
 | verbose       | v          | Show verbose information.                                                                   |
+
 **PNG does not embed EXIF info*
 
 # Example Usage
