@@ -14,10 +14,10 @@ namespace GooglePhotoExifFix
         [Option('p', "path", Required = true, HelpText = "Path to root folder")]
         public string Path { get; set; }
 
-        [Option('f', "force", Required = false, HelpText = "Force overwrite exif date from json")]
+        [Option('f', "force", Required = false, HelpText = "Force overwrite exif date")]
         public bool Force { get; set; }
 
-        [Option('d', "filedate", Required = false, HelpText = "Modify file created date from json")]
+        [Option('d', "filedate", Required = false, HelpText = "Modify file last write and creation time")]
         public bool WriteFileDate { get; set; }
 
         [Option('e', "extensions",Separator = ',', Required = false, HelpText = "Image file extensions you want to edit such as jpg, use',' to seperate multiple extensions")]
@@ -26,7 +26,7 @@ namespace GooglePhotoExifFix
         [Option('r', "remove", Required = false, HelpText = "Set which file extensions to remove when found duplicate file name in same folder")]
         public string RemoveExtension { get; set; }
 
-        [Option('v', "verbose", Required = false)]
+        [Option('v', "verbose", Required = false, HelpText="Show verbose information")]
         public bool Verbose { get; set; }
     }
 
