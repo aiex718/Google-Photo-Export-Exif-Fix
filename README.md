@@ -17,7 +17,7 @@ A tool to edit photo exif exported from Google photo or takeout
 **PNG does not embed EXIF info*
 
 # Example Usage
-    GooglePhotoExifFix -r "C:\Download\Google Takeout" -f -d -e jpeg,jpg,heic,heif
+    GooglePhotoExifFix -p "C:\Download\Google Takeout" -f -d -e jpeg,jpg,heic,heif 
 
 # Package List
 * [CommandLineParser](https://github.com/commandlineparser/commandline)
