@@ -1,7 +1,7 @@
 # Google-Photo-Export-Exif-Fix
 A tool to read json exported from Google photo or takeout, then write to image exif metadata.
 
-Currently only modify DateTimeOriginal in exif, lastwrite and creation time of the file.
+Currently version only modify DateTimeOriginal in exif, lastwrite and creation time of the file.
 
 # Requirements
 * [.Net 5.0](https://dotnet.microsoft.com/download/dotnet/5.0)
