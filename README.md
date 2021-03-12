@@ -1,5 +1,5 @@
 # Google-Photo-Export-Exif-Fix
-A tool to edit photo exif exported from Google photo or takeout, currently only DateTimeOriginal from json to image exif metadata is implimented.
+A tool to edit photo exif exported from Google photo or takeout, currently only implimented DateTimeOriginal from json to exif.
 
 # Requirements
 * [.Net 5.0](https://dotnet.microsoft.com/download/dotnet/5.0)
